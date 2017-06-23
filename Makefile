@@ -3,7 +3,7 @@ CFLAGS = -Wall -Werror -MP -MMD
 
 all: bin/x2
 
-bin/Quard: build/main.o build/function.o
+bin/x2: build/main.o build/function.o
 	@echo "Make ready" 
 	@gcc $(CFLAGS) build/main.o build/x2.o -o bin/x2 -lm
 
