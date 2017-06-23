@@ -1,3 +1,16 @@
 language: c
-skript: make && make test
-install: true
+
+compiller: gcc
+
+install:
+	-make
+	-make test
+
+script:
+	-bin/x2-test
+
+after_success:
+	-make clean
+
+after_failure:
+	-make clean
