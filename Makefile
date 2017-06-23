@@ -15,11 +15,11 @@ build/x2.o: src/x2.c src/x2.h
 test:
 	make bin/x2-test
 	bin/x2-test
-bin/x2_test: build/test/main.o build/test/x2-test.o
+bin/x2-test: build/test/main.o build/test/x2-test.o
 	@gcc $(CFLAGS) build/test/main.o build/test/x2-test.o build/x2.o -o bin/x2-test -lm
 build/test/main.o: test/main.c src/x2.h
 	@gcc $(CFLAGS) -I thirdparty -c test/main.c -o build/test/main.o -lm
-build/test/x2_test.o: src/x2.h test/x2-test.c
+build/test/x2-test.o: src/x2.h test/x2-test.c
 	@gcc $(CFlAGS) -I thirdparty -c test/x2-test.c -o build/test/x2-test.o 
 clean:
 	@echo "Cleaning directory files" 	
