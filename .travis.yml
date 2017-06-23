@@ -7,7 +7,7 @@ install:
 	-make test
 
 script:
-	-build/x2-test
+	-build/test
 
 after_success:
 	-make clean
