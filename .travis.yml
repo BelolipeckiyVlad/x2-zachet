@@ -1,16 +1,3 @@
 language: c
-
-compiller: gcc
-
-install:
-	-make
-	-make test
-
-script:
-	-build/test
-
-after_success:
-	-make clean
-
-after_failure:
-	-make clean
+script: make && make test
+install: true
