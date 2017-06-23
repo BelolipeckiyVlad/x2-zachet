@@ -22,6 +22,7 @@ int main(int argc, char* argv[])
     if (D > 0)
     {
         S = Dec1(a,b,D);
+	P = Dec1(a,b,D);
         printf("1 Coren raven: %lf \n",S);
         printf("2 Coren raven: %lf \n",P);
     }
