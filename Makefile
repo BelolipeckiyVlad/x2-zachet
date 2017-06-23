@@ -1,5 +1,5 @@
-.PHONY: clean all x2 test
-CFLAGS = -Wall -Werror -MP -MMD -std=c99
+.PHONY: clean all test
+CFLAGS = -Wall -Werror -MP -MMD 
 
 all: bin/x2
 
