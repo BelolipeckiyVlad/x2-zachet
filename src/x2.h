@@ -1,5 +1,5 @@
-#ifndef DEPOSIT_CALC_H
-#define DEPOSIT_CALC_H
+#ifndef X2_H
+#define X2_H
 
 double Dec(double a, double b, double c);
 
