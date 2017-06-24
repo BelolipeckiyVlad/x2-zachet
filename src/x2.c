@@ -27,6 +27,7 @@ double a0(double b)
 {
     double S = (-1 * c) / b;
     return S;
+}
 double b0(double a)
 {
     double S = sqrt((-1 * c) / a);
