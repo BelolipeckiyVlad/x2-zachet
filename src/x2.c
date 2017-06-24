@@ -23,12 +23,12 @@ double Dec2(double a, double b, double D)
     double P = (-1 * b - sqrt(D)) / (2 * a);
     return P;
 }
-double kofa0(double b)
+double kofa0(double b, double c)
 {
     double S = (-1 * c) / b;
     return S;
 }
-double kofb0(double a)
+double kofb0(double a, double c)
 {
     double S = sqrt((-1 * c) / a);
     return S;
