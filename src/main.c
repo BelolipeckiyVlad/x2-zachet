@@ -14,7 +14,7 @@ int main(int argc, char* argv[])
     {
         S = kofa0(b);
         printf("Coren raven: %lf",S);
-    {
+    }
     if (b == 0)
     {
         S = kofb0(a);
