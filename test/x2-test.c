@@ -111,7 +111,7 @@ CTEST(Test_11_Dec2, input_1_5_25)
     ASSERT_DBL_NEAR(expected, result);
 }
 
-CTEST(Test_12_Dec2, input_2_-10_4)
+CTEST(Test_12_Dec2, input_2_10_4)
 {
     double result = Dec2(2,-10,4);
 	
