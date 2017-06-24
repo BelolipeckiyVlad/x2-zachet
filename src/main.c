@@ -12,12 +12,12 @@ int main(int argc, char* argv[])
     D = Dec(a,b,c);
     if (a == 0)
     {
-        S = a0(b);
+        S = kofa0(b);
         printf("Coren raven: %lf",S);
     {
     if (b == 0)
     {
-        S = b0(a);
+        S = kofb0(a);
         printf("Coren raven: %lf",S);
     }
     if (D == 0)
