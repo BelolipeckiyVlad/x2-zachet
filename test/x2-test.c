@@ -29,7 +29,7 @@ CTEST(Test_3_Dec, input_5_1_1)
     ASSERT_DBL_NEAR(expected, result);
 }
 
-CTEST(Test_4_kofa0, input_2_-4)
+CTEST(Test_4_kofa0, input_2_4)
 {
     double result = kofa0(2,-4);
 	
@@ -47,7 +47,7 @@ CTEST(Test_4_kofa0, input_8_24)
     ASSERT_DBL_NEAR(expected, result);
 }
 
-CTEST(Test_5_kofb0, input_2_-8)
+CTEST(Test_5_kofb0, input_2_8)
 {
     double result = kofb0(2,-8);
 	
@@ -57,7 +57,7 @@ CTEST(Test_5_kofb0, input_2_-8)
 }
 
 
-CTEST(Test_6_Dec0, input_-4_2)
+CTEST(Test_6_Dec0, input_4_2)
 {
     double result = Dec0(-4,2);
 	
@@ -66,7 +66,7 @@ CTEST(Test_6_Dec0, input_-4_2)
     ASSERT_DBL_NEAR(expected, result);
 }
 
-CTEST(Test_7_Dec0, input_8_2)
+CTEST(Test_7_Dec0, input_8_1)
 {
     double result = Dec0(8,1);
 	
@@ -75,7 +75,7 @@ CTEST(Test_7_Dec0, input_8_2)
     ASSERT_DBL_NEAR(expected, result);
 }
 
-CTEST(Test_8_Dec1, input_1_-4_16)
+CTEST(Test_8_Dec1, input_8_1)
 {
     double result = Dec1(8,1);
 	
@@ -84,7 +84,7 @@ CTEST(Test_8_Dec1, input_1_-4_16)
     ASSERT_DBL_NEAR(expected, result);
 }
 
-CTEST(Test_9_Dec1, input_2_8_4)
+CTEST(Test_9_Dec1, input_1_8_4)
 {
     double result = Dec1(1,8,4);
 	
@@ -102,7 +102,7 @@ CTEST(Test_10_Dec1, input_1_1_9)
     ASSERT_DBL_NEAR(expected, result);
 }
 
-CTEST(Test_11_Dec2, input_1_-5_25)
+CTEST(Test_11_Dec2, input_1_5_25)
 {
     double result = Dec2(1,-5,25);
 	
