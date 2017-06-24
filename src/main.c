@@ -22,7 +22,7 @@ int main(int argc, char* argv[])
     }
     if (D == 0)
     {
-        S = Dec0(a,b);
+        S = Dec0(b,a);
         printf("Coren raven: %lf",S);
     }
     if (D < 0)
