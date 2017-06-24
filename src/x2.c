@@ -17,6 +17,18 @@ double Dec1(double a, double b, double D)
 {
     double S = (-1 * b + sqrt(D)) / (2 * a);
     return S;
+}
+double Dec2(double a, double b, double D)
+{
     double P = (-1 * b - sqrt(D)) / (2 * a);
     return P;
+}
+double a0(double b)
+{
+    double S = (-1 * c) / b;
+    return S;
+double b0(double a)
+{
+    double S = sqrt((-1 * c) / a);
+    return S;
 }
